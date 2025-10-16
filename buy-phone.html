@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Phone - SK Mobiles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <section class="product-showcase">
+    <h1>Buy Phone</h1>
+
+    <div class="product-card">
+      <img src="realme-phone.png" alt="Realme Phone">
+      <h3>Realme Narzo 60</h3>
+      <p class="price">₹14,999</p>
+      <p class="details">8GB RAM / 128GB Storage, AMOLED Display</p>
+    </div>
+
+    <div class="product-card">
+      <img src="iphone.png" alt="iPhone">
+      <h3>iPhone 13</h3>
+      <p class="price">₹58,999</p>
+      <p class="details">128GB, A15 Bionic, Super Retina XDR</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    
+  </section> -->
+
+
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb">
+    <a href="index.html">Home</a> > <a href="services.html">Services</a> > Buy Smartwatch
+  </nav>
+
+  <!-- Product Showcase Section -->
+  <section class="product-showcase">
+    <h1>Buy Smartphones</h1>
+
+    <div class="product-card">
+      <img src="C:\Users\Abhishek\Downloads\realme-narzo60-5g-1.jpg" alt="Realme Phone">
+      <h3>Realme narzo 6T</h3>
+      <p class="price">₹15,999</p>
+      <p class="details">8GB RAM 128GB AMOLED </p>
+      <div class="rating">⭐⭐⭐⭐☆ (4.2) | 1,235 reviews</div>
+      
+      <button class="add-to-cart">Buy Button</button>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="C:\Users\Abhishek\Downloads\realme-narzo60-5g-1.jpg" alt="Realme Phone">
+      <h3>Realme narzo 6T</h3>
+      <p class="price">₹15,999</p>
+      <p class="details">8GB RAM 128GB AMOLED </p>
+      <div class="rating">⭐⭐⭐⭐☆ (4.2) | 1,235 reviews</div>
+      
+      <button class="add-to-cart">Buy Button</button>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="C:\Users\Abhishek\Downloads\realme-narzo60-5g-1.jpg" alt="Realme Phone">
+      <h3>Realme narzo 6T</h3>
+      <p class="price">₹15,999</p>
+      <p class="details">8GB RAM 128GB AMOLED </p>
+      <div class="rating">⭐⭐⭐⭐☆ (4.2) | 1,235 reviews</div>
+      
+      <button class="add-to-cart">Buy Button</button>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="C:\Users\Abhishek\Downloads\realme-narzo60-5g-1.jpg" alt="Realme Phone">
+      <h3>Realme narzo 6T</h3>
+      <p class="price">₹15,999</p>
+      <p class="details">8GB RAM 128GB AMOLED </p>
+      <div class="rating">⭐⭐⭐⭐☆ (4.2) | 1,235 reviews</div>
+      
+      <button class="add-to-cart">Buy Button</button>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="C:\Users\Abhishek\Downloads\realme-narzo60-5g-1.jpg" alt="Realme Phone">
+      <h3>Realme narzo 6T</h3>
+      <p class="price">₹15,999</p>
+      <p class="details">8GB RAM 128GB AMOLED </p>
+      <div class="rating">⭐⭐⭐⭐☆ (4.2) | 1,235 reviews</div>
+      
+      <button class="add-to-cart">Buy Button</button>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Repeat for other products -->
+  </section>
+
+  <!-- JavaScript for filters -->
+  <script>
+    function filterByBrand(brand) {
+      document.querySelectorAll('.product-card').forEach(card => {
+        card.style.display = card.textContent.includes(brand) ? 'block' : 'none';
+      });
+    }
+
+    function filterByPrice(limit) {
+      document.querySelectorAll('.product-card').forEach(card => {
+        const price = parseInt(card.querySelector('.price').textContent.replace('₹','').replace(',',''));
+        card.style.display = price <= limit ? 'block' : 'none';
+      });
+    }
+  </script>
+
+
+
+</body>
+</html>
