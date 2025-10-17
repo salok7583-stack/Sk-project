@@ -1114,7 +1114,7 @@ html, body {
   padding-right: 1rem; /* Optional: adds spacing from edge */
 
 }
-/* .navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1170,7 +1170,7 @@ html, body {
     display: flex;
     flex-direction: column;
   }
-} */
+}
 
 
 
@@ -1238,4 +1238,5 @@ html, body {
     width: 100%;
   }
 }
+
 
